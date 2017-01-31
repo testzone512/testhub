@@ -1,0 +1,374 @@
+.register-head {
+    background-color: #f3f3f3;
+}
+.register-head-content {
+    text-align: center;
+}
+.register-content-head {
+    margin-top: 100px;
+}
+.register-sub-content{
+	margin-top: 60px;
+}
+.register-main-head img{
+	height: 450px;
+}
+.register-line {
+    border-top: 2px solid #cccccc;
+	margin-top: 40px;
+}
+.register-form-head{
+	font-weight:bold;
+	margin-top:80px;
+}
+.register-main-head {
+    padding: 0;
+}
+.register-textbox input{
+	border-radius: 0;
+    height: 60px;
+    margin-top: 20px;
+}
+.register-id-num input{
+	border-radius: 0;
+    float: left;
+    height: 60px;
+    margin-top: 20px;
+    width: 64%;
+	margin-left: 25px;
+}
+.register-form-label{
+	margin-top:50px;
+}
+.register-id-num button{
+	background-color: #000000;
+    border: 0 none;
+    border-radius: 0;
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: 27px;
+    padding: 12px;
+    width: 25%;
+}
+.register-id-num p{
+	height: 95px;
+}
+.register-textbox select {
+    border: 1px solid #cccccc;
+    border-radius: 0;
+    height: 50px;
+    padding: 2%;
+    width: 50%;
+	margin-top:20px;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    background-image: url("../images/drop-down-arrow.png");
+    background-position: 95% center;
+    background-repeat: no-repeat;
+	background-size: 5% auto;
+    outline: none;
+}
+.register-textbox option{
+    border-right: 2px solid #cccccc;
+    padding: 2%;
+}
+.register-questions h3{
+	font-weight:bold;
+}
+.label-name{
+	margin-top:40px;
+}
+.question-form{
+	margin-top:30px;
+}
+.question-first-label{
+	margin-top:30px;
+}
+.reg-main-cont h5{
+	font-weight:normal;
+}
+.reg-main-cont label{
+	font-weight:normal;
+}
+.reg-main-cont span{
+	font-weight:normal;
+}
+
+/***************** CHECK BOX START ********************/
+label,
+input[type="checkbox"] + span,
+input[type="checkbox"] + span::before
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+ 
+label *,
+label *
+{
+    cursor: pointer;
+}
+input[type="checkbox"]
+{
+    opacity: 0;
+    position: absolute;
+}
+input[type="checkbox"] + span
+{
+
+    color: #333;
+
+}
+input[type="checkbox"] + span::before
+{
+    content: "";
+    width: 40px;
+    height: 40px;
+    margin: 0 20px 0 0;
+    border: solid 1px #cccccc;
+    line-height: 14px;
+    text-align: center;
+     
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+     
+    background: #ffffff;
+    background: -moz-radial-gradient(#ffffff, #ffffff);
+    background: -webkit-radial-gradient(#ffffff, #ffffff);
+    background: -ms-radial-gradient(#ffffff, #ffffff);
+    background: -o-radial-gradient(#ffffff, #ffffff);
+    background: radial-gradient(#ffffff, #ffffff);
+}
+input[type="checkbox"]:checked + span::before
+{
+    color: #666;
+}
+input[type="checkbox"]:disabled + span
+{
+    cursor: default;
+     
+    -moz-opacity: .4;
+    -webkit-opacity: .4;
+    opacity: .4;
+}
+ 
+input[type="checkbox"] + span::before
+{
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 0;
+}
+input[type="checkbox"]:checked + span::before
+{
+    content: "\2714";
+    font-size: 40px;
+    padding-top: 15px;
+}
+.label-name span{
+	font-weight:normal;
+}
+/****************** CHECK BOX END *******************/
+.register-form-submit button{
+	background-color: #000000;
+    border: 0 none;
+    border-radius: 0;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 52px;
+    padding: 12px;
+    width: 35%;
+}
+.first-details{
+	padding-left:0;
+}
+@media screen and (max-width:1280px){
+	
+	.register-id-num input {
+		width: 61%;
+	}
+	
+}
+@media screen and (max-width:1082px){
+	
+	.register-main-head img {
+		height: 380px;
+	}
+	.register-content-head {
+		margin-top: 80px;
+	}
+	.register-id-num {
+		width: 80%;
+	}
+	.register-main-head img {
+		height: 340px;
+	}
+	.register-form-head {
+		font-size: 22px;
+	}
+	.register-textbox h3{
+		font-size: 22px;
+	}
+	.register-questions h3 {
+		font-size: 22px;
+	}
+	
+}
+@media screen and (max-width:800px){
+	
+	.first-details {
+		padding-left: 15px;
+	}
+	.register-id-num {
+		width: 100%;
+	}
+	.register-content-head {
+		font-size: 32px;
+	}
+	
+}
+@media screen and (max-width:668px){
+	
+	.register-content-head {
+		font-size: 28px;
+	}
+	.register-main-head img {
+		height: 310px;
+	}
+	.register-content-head {
+		margin-top: 60px;
+	}
+	.register-form-label {
+		margin-top: 35px;
+	}
+	.label-name {
+		margin-top: 30px;
+		width: 100%;
+	}
+	
+}
+@media screen and (max-width:568px){
+	
+	.register-content-head {
+		font-size: 24px;
+		margin-top: 40px;
+	}
+	.register-main-head img {
+		height: 280px;
+	}
+	.register-id-num input {
+		margin-left: 10px;
+	}
+	.register-id-num button {
+		margin-left: 25px;
+		width: 31%;
+	}
+	.register-textbox select {
+		width: 60%;
+	}
+	span {
+		width: 390px;
+	}
+	.question-first-label {
+		width: 390px;
+	}
+	.label-name {
+		width: 390px;
+	}
+	
+}
+@media screen and (max-width:468px){
+	
+	.register-main-head img {
+		height: 240px;
+	}
+	.register-content-head {
+		margin-top: 25px;
+	}
+	.register-sub-content {
+		margin-top: 30px;
+	}
+	.register-textbox h3 {
+		font-size: 20px;
+	}
+	.register-id-num button {
+		margin-left: 20px;
+		font-size: 12px;
+	}
+	.register-id-num input {
+		margin-left: 5px;
+	}
+	.register-questions h3 {
+		font-size: 20px;
+	}
+	.register-form-submit button {
+		width: 60%;
+	}
+	input[type="checkbox"] + span::before {
+		height: 30px;
+		width: 30px;
+	}
+	.register-textbox select {
+		width: 75%;
+	}
+	
+}
+@media screen and (max-width:375px){
+	
+	.register-textbox h3 {
+		width: 275px;
+	}
+	.reg-main-cont h5 {
+		width: 275px;
+	}
+	.register-id-num input {
+		width: 95%;
+	}
+	.register-id-num button {
+		font-size: 14px;
+		margin-left: 21%;
+		width: 50%;
+		margin-top: 15px;
+	}
+	.register-id-num p {
+		height: 150px;
+	}
+	.register-textbox select {
+		width: 100%;
+	}
+	span {
+		width: 255px;
+	}
+	.register-main-head img {
+		display: none;
+	}
+	.label-name {
+		width: 255px;
+	}
+	.register-head-content {
+		width: 100%;
+	}
+	.register-textbox input {
+		width: 310px;
+	}
+	
+}
+@media screen and (max-width:320px){
+	
+	.register-content-head {
+		font-size: 22px;
+	}
+	.register-id-num button {
+		font-size: 13px;
+	}
+	.register-form-submit button {
+		width: 85%;
+	}
+	.register-textbox input {
+		width: 260px;
+	}
+	
+}
