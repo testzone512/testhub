@@ -1,9 +1,0 @@
-@charset "utf-8";
-
-@media screen and (max-width:375px)
-{
-	thead:first-child > tr:first-child > th {
-		font-size:8px !important;
-	}
-}/* CSS Document */
-
