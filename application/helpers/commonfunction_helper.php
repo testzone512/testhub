@@ -1,26 +1,6 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-/**
- * isLoggedinCondition
- *
- * This is used to check if frontend user is logged in. 
- *
- * @author	Rima Mehta
- * @access	public
- * 	
- */
- if ( ! function_exists('isLoggedinCondition'))
-{
-	function isLoggedinCondition() 
-	{ 
-		
-		$CI =& get_instance();
-		if($CI->session->userdata('logged_user_in') == FALSE) {
-			redirect('/');
-			//break;
-		}
-	}
-}
+
 
 /**
  * @function		GetAllCommon
