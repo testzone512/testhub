@@ -17,7 +17,7 @@
 		$CI =& get_instance();
 		if($CI->session->userdata('logged_user_in') == FALSE) {
 			redirect('/');
-			break;
+			//break;
 		}
 	}
 }
