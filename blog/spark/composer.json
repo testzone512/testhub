@@ -1,0 +1,27 @@
+{
+    "name": "laravel/spark-installer",
+    "description": "Command line installer for Laravel Spark.",
+    "keywords": ["spark", "laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Taylor Otwell",
+            "email": "taylor@laravel.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Laravel\\SparkInstaller\\": "src/"
+        }
+    },
+    "require": {
+        "illuminate/support": "~5.1|~5.2|~5.3",
+        "symfony/console": "~2.7|~3.0",
+        "symfony/process": "~2.7|~3.0",
+        "illuminate/filesystem": "~5.1|~5.2|~5.3",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "bin": [
+        "spark"
+    ]
+}
